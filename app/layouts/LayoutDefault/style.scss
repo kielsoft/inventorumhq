@@ -1,0 +1,25 @@
+@import "../../sass/variables.scss";
+
+#__next {
+    margin-left: $sideNavWidth;
+
+    nav {
+        left: $sideNavWidth;
+        right: 0;
+        width: auto;
+    }
+
+    @media only screen and (max-width : 992px) {
+        margin-left: 0;
+
+        nav {
+            left: 0;
+            right: 0;
+            width: auto;
+        }
+    }
+}
+
+main {
+    padding: 12px;
+}

@@ -1,0 +1,22 @@
+.search-box-wrapper {
+    border-radius: 3px;
+    background-color: #ebecee;
+    padding: 0;
+    margin: 0;
+
+    i.material-icons {
+        font-size: 15px;
+        padding: 0 13px;
+        line-height: 20px
+    }
+
+    input {
+        border: none;
+        height: 35px;
+        background-color: transparent;
+
+        &:focus {
+            outline: 0 !important;
+        }
+    }
+}

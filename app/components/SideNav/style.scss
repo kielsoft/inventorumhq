@@ -1,0 +1,47 @@
+@import "../../sass/variables.scss";
+
+ul.sidenav {
+    width: $sideNavWidth;
+    background-image: linear-gradient(to bottom, #192842, #382c50);
+
+    li>a {
+        color: #abaeb9;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 500;
+        font-style: normal;
+        padding-left: 24px;
+        height: 50px;
+
+        i.material-icons {
+            color: #abaeb9 ;
+            font-size: 20px;
+            width: 14px;
+            margin-right: 12px ;
+        }
+
+        &:hover, &:active {
+            color: white;
+            background-color: #233456;
+
+            i.material-icons {
+                color: white ;
+            }
+        }
+        
+        &.logo {
+
+            &:hover {
+                background-color: transparent;
+            }
+            height: 64px;
+            line-height: 64px ;
+            border-bottom: 1px solid #151d33;
+        
+            img {
+                vertical-align: middle;
+                height: 25px;
+            }
+        }
+    }
+}
