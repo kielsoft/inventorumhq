@@ -36,7 +36,6 @@ export default class Users extends React.Component<Props, State> {
 
     componentDidMount(){
         this.context.setPageTitle("Users");
-        console.log(new RegExp("Ral", "i"))
     }
 
     doSearch(e: Event) {
