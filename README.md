@@ -26,3 +26,5 @@ $ yarn dev2
 ```sh
 $ yarn test
 ```
+
+[![N|Solid](https://raw.githubusercontent.com/kielsoft/inventorumhq/master/static/images/preview.gif)](https://www.github.com/kielsoft/inventorumhq.git)
